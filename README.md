@@ -39,3 +39,5 @@ Understanding traveler behavior and segmenting users based on preferences, spend
 | `hotel_country`                | Country code where the hotel is located                       |
 | `hotel_market`                 | Market/sub-region code where the hotel is located             |
 | `hotel_cluster`                | Cluster ID representing a group of similar hotels             |
+
+This project uses the [Expedia Travel Dataset](https://www.kaggle.com/datasets/jacopoferretti/expedia-travel-dataset/).
