@@ -41,3 +41,9 @@ Understanding traveler behavior and segmenting users based on preferences, spend
 | `hotel_cluster`                | Cluster ID representing a group of similar hotels             |
 
 This project uses the [Expedia Travel Dataset](https://www.kaggle.com/datasets/jacopoferretti/expedia-travel-dataset/).
+
+## Approach
+
+### Tools & Technologies Used
+- **Python** - For data cleaning and validation. Creating and exporting dataset.
+- **Tableau** -  Data visualization and dashboard creation.
