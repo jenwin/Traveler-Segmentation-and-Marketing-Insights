@@ -47,3 +47,31 @@ This project uses the [Expedia Travel Dataset](https://www.kaggle.com/datasets/j
 ### Tools & Technologies Used
 - **Python** - For data cleaning and validation. Creating and exporting dataset.
 - **Tableau** -  Data visualization and dashboard creation.
+
+### Data Cleaning and Validation
+
+1. **Convert Date Columns to Datetime Format:**
+   - `date_time`
+   - `srch_ci`
+   - `srch_co`
+
+2. **Handle Invalid or Missing Date Value:**
+   - `errors='coerce'` converts invalid date strings in `srch_ci` and `srch_co` into NaT (not a time, missing datetime), preventing errors during date operations.
+
+3. **Calculate Trip Length and Lead Time:**
+   - `trip_length` - Number of days between check-out and check-in (`srch_co - srch_ci`).
+   - `lead_time` - Number of days between booking/search date and check-in (`srch_ci - date_time`).
+   - Both calculations automatically handle missing date values due to datetime coercion.
+
+4. **Create Group Size Feature:**
+   - Sum of adults (`srch_adults_cnt`) and children (`srch_children_cnt`) to get total group size.
+
+5. **Create Traveler Type Segments:**
+   - Initialized `traveler_type` as `Unknown` for all rows.
+   - `Family` if children count > 0.
+   - `Solo` if 1 adult and no children.
+   - `Couple` if 2 adults and no children.
+   - `Group` if more than 2 adults and no children.
+
+6. **Handle Missing Distance Values:**
+   - Filled missing values in `orig_destination_distance` with -1 for unknown/missing distances.
