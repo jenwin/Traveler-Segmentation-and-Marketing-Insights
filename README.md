@@ -51,6 +51,8 @@ This project uses the [Expedia Travel Dataset](https://www.kaggle.com/datasets/j
 
 ### Data Cleaning and Validation
 
+## Expedia Segmentation Dataset
+
 1. **Convert Date Columns to Datetime Format:**
    - `date_time`
    - `srch_ci`
@@ -61,7 +63,7 @@ This project uses the [Expedia Travel Dataset](https://www.kaggle.com/datasets/j
 
 3. **Calculate Trip Length and Lead Time:**
    - `trip_length` - Number of days between check-out and check-in (`srch_co - srch_ci`).
-   - `lead_time` - Number of days between booking/search date and check-in (`srch_ci - date_time`).
+   - `lead_time` - Number of days between booking/search date and check-in (`srch_ci - date_time`). Normalized to handle same-day bookings and prevent negative values.
    - Both calculations automatically handle missing date values due to datetime coercion.
 
 4. **Create Group Size Feature:**
@@ -80,3 +82,19 @@ This project uses the [Expedia Travel Dataset](https://www.kaggle.com/datasets/j
 7. **Dropped Columns or Rows:**
    - Unnamed column (first column).
    - Rows with no guests (0 adults, 0 children).
+
+### Funnel Stages Dataset Creation
+
+1. **Classify Traveler Types**
+   - `Solo`: 1 adult, 0 children
+   - `Couple`: 2 adults, 0 children
+   - `Group`: >2 adults, 0 children
+   - `Family`: With at least 1 child 
+
+2. **Aggregate Funnel Metrics**
+
+For each traveler type:
+
+   - `Total Visits`: Unique users (`user_id`)
+   - `Searches`: Total number of search rows
+   - `Completed Bookings`: Unique users where `is_booking == 1`
