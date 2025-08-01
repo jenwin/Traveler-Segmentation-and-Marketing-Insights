@@ -76,4 +76,6 @@ This project uses the [Expedia Travel Dataset](https://www.kaggle.com/datasets/j
 6. **Handle Missing Distance Values:**
    - Filled missing values in `orig_destination_distance` with -1 for unknown/missing distances.
 
-7. Dropped unnamed column (first column).
+7. **Dropped Columns or Rows:**
+   - Unnamed column (first column).
+   - Rows with no guests (0 adults, 0 children).
