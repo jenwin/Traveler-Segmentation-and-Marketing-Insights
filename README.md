@@ -51,7 +51,7 @@ This project uses the [Expedia Travel Dataset](https://www.kaggle.com/datasets/j
 
 ### Data Cleaning and Validation
 
-## Expedia Segmentation Dataset
+#### Expedia Segmentation Dataset
 
 1. **Convert Date Columns to Datetime Format:**
    - `date_time`
@@ -82,6 +82,10 @@ This project uses the [Expedia Travel Dataset](https://www.kaggle.com/datasets/j
 7. **Dropped Columns or Rows:**
    - Unnamed column (first column).
    - Rows with no guests (0 adults, 0 children).
+
+8. **Add Time-Based Feature**
+   - Parsed `date_time` column into datetime format
+   - Extracted `hour_of_day` and `time-of-day` classification: Morning, Afternoon, Evening, Night
 
 ### Funnel Stages Dataset Creation
 
