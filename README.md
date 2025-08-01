@@ -14,7 +14,7 @@ Understanding traveler behavior and segmenting users based on preferences, spend
 
 | Column                         | Description                                                   |
 |--------------------------------|---------------------------------------------------------------|
-| `#`                            | Unique identifier for each booking                            |
+|                                | Unique identifier for each booking                            |
 | `date_time`                    | Timestamp: Customer booked/clicked                            |
 | `site_name`                    | ID of the Expedia point of sale (POS)                         |
 | `posa_continent`               | ID of continent associated with site_name                     |
@@ -75,3 +75,5 @@ This project uses the [Expedia Travel Dataset](https://www.kaggle.com/datasets/j
 
 6. **Handle Missing Distance Values:**
    - Filled missing values in `orig_destination_distance` with -1 for unknown/missing distances.
+
+7. Dropped unnamed column (first column).
