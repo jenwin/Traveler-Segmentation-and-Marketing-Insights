@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv("https://raw.githubusercontent.com/jenwin/Travel_Data/refs/heads/main/travel.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/jenwin/Travel_Data/refs/heads/main/expedia_segmented.csv")
 
 # Convert date columns: date_time, srch_ci, and srch_co to datetime format
 df['date_time'] = pd.to_datetime(df['date_time'])
