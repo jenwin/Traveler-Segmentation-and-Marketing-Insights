@@ -16,11 +16,11 @@ df['lead_time'] = (
 df['group_size'] = df['srch_adults_cnt'] + df['srch_children_cnt']
 
 # Create simple traveler type segments: Solo, Couple, Family, Group
-df['traveler_type'] = 'Unknown'
 df.loc[df['srch_children_cnt'] > 0, 'traveler_type'] = 'Family'
 df.loc[(df['srch_adults_cnt'] == 1) & (df['srch_children_cnt'] == 0), 'traveler_type'] = 'Solo'
 df.loc[(df['srch_adults_cnt'] == 2) & (df['srch_children_cnt'] == 0), 'traveler_type'] = 'Couple'
 df.loc[(df['srch_adults_cnt'] > 2) & (df['srch_children_cnt'] == 0), 'traveler_type'] = 'Group'
+df = df[~((df['srch_adults_cnt'] == 0) & (df['srch_children_cnt'] == 0))] # Remove entries with no adults or children
 
 # Fill missing distance values
 df['orig_destination_distance'] = df['orig_destination_distance'].fillna(-1)
