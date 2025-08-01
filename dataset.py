@@ -10,7 +10,9 @@ df['srch_co'] = pd.to_datetime(df['srch_co'], errors='coerce')
 
 # Create new behavioral features
 df['trip_length'] = (df['srch_co'] - df['srch_ci']).dt.days
-df['lead_time'] = (df['srch_ci'] - df['date_time']).dt.days
+df['lead_time'] = (
+    df['srch_ci'].dt.normalize() - df['date_time'].dt.normalize()
+).dt.days
 df['group_size'] = df['srch_adults_cnt'] + df['srch_children_cnt']
 
 # Create simple traveler type segments: Solo, Couple, Family, Group
