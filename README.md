@@ -47,6 +47,7 @@ This project uses the [Expedia Travel Dataset](https://www.kaggle.com/datasets/j
 ### Tools & Technologies Used
 - **Python** - For data cleaning and validation. Creating and exporting dataset.
 - **Tableau** -  Data visualization and dashboard creation.
+- **Excel** - For data cleaning and validation.
 
 ### Data Cleaning and Validation
 
