@@ -102,3 +102,27 @@ For each traveler type:
    - `Total Visits`: Unique users (`user_id`)
    - `Searches`: Total number of search rows
    - `Completed Bookings`: Unique users where `is_booking == 1`
+
+## Results
+
+**Traveler Segmentation**
+   - `Solo` travelers have the highest booking rate at `12.2%`, which is significantly higher than other groups. 
+   - `Families` follow a booking rate of `7.1%`, closely matched by `Groups` (`7.0%`) and `Couples` (`7.0%`).
+   - `Solo` travelers tend to complete more bookings after searching, possibly due to quicker decision-making or fewer logistical constraints.
+
+   - `Desktop` devices account for the majority of bookings across all traveler types. This indicates a clear preference for desktop platforms, probably due to easier navigation and more effective comparison features.
+
+   - Booking volume peaks during `daytime hours`, especially in the `morning` and `afternoon`, for all traveler types.
+   - `Couples` make up the largest portion of bookings throughout the day. This suggests they are the most active users on the platform.
+
+**Trip Planning Behavior**
+   - `Families` typically book slightly longer stays, possibly due to more complex travel plans or vacation needs.
+   - `Solo` travelers tend to take shorter trips.
+   - `Couples` and `Groups` fall somewhere in between, which could mean varying travel purposes and preferences.
+   - `Groups` and `Families` tend to plan their trips further in advance, likely due to coordinating multiple people and schedules. 
+   - `Solo` travelers book more last-minute trips. This suggests more spontaneous travel or simpler logistics.
+
+**User Search Usage and Distance**
+   - `Couples` lead in overall booking volume, but `Solo` travelers have a strong booking rate compared to their search numbers.
+   - `Groups` are the smallest segment in terms of engagement and bookings.
+   - All travelers prefer hotels closer to their location. This could be due to convenience, familiarity, or travel limitations, showing a natural preference for nearby accommodations.
