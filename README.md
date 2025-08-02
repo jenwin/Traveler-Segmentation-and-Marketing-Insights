@@ -142,3 +142,6 @@ For each traveler type:
    - Create targeted campaigns and special packages for `Couples` to leverage their high booking volume.
    - Develop early-planning incentives (discounts, reminders) for `Families` and `Groups` to encourage earlier bookings.
    - Implement localized, geo-targeted marketing strategies to promote hotels and events near users.
+
+## Author
+Jennifer Nguyen
