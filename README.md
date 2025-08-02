@@ -106,42 +106,45 @@ For each traveler type:
 ## Results
 
 ### Traveler Segmentation
-   - `Solo` travelers have the highest booking rate at `12.2%`, which is significantly higher than other groups. 
-   - `Families` follow a booking rate of `7.1%`, closely matched by `Groups` (`7.0%`) and `Couples` (`7.0%`).
-   - `Solo` travelers tend to complete more bookings after searching, possibly due to quicker decision-making or fewer logistical constraints.
-   - `Desktop` devices account for the majority of bookings across all traveler types. This indicates a clear preference for desktop platforms, probably due to easier navigation and more effective comparison features.
-   - Booking volume peaks during `daytime hours`, especially in the `morning` and `afternoon`, for all traveler types.
-   - `Couples` make up the largest portion of bookings throughout the day. This suggests they are the most active users on the platform.
+
+1. `Solo` travelers have the highest booking rate at `12.2%`, which is significantly higher than other groups. 
+2. `Families` follow a booking rate of `7.1%`, closely matched by `Groups` (`7.0%`) and `Couples` (`7.0%`).
+3. `Solo` travelers tend to complete more bookings after searching, possibly due to quicker decision-making or fewer logistical constraints.
+4. `Desktop` devices account for the majority of bookings across all traveler types. This indicates a clear preference for desktop platforms, probably due to easier navigation and more effective comparison features.
+5. Booking volume peaks during `daytime hours`, especially in the `morning` and `afternoon`, for all traveler types.
+6. `Couples` make up the largest portion of bookings throughout the day. This suggests they are the most active users on the platform.
 
 ### Trip Planning Behavior
-   - `Families` typically book slightly longer stays, possibly due to more complex travel plans or vacation needs.
-   - `Solo` travelers tend to take shorter trips.
-   - `Couples` and `Groups` fall somewhere in between, which could mean varying travel purposes and preferences.
-   - `Groups` and `Families` tend to plan their trips further in advance, likely due to coordinating multiple people and schedules. 
-   - `Solo` travelers book more last-minute trips. This suggests more spontaneous travel or simpler logistics.
+
+1. `Families` typically book slightly longer stays, possibly due to more complex travel plans or vacation needs.
+2. `Solo` travelers tend to take shorter trips.
+3. `Couples` and `Groups` fall somewhere in between, which could mean varying travel purposes and preferences.
+4. `Groups` and `Families` tend to plan their trips further in advance, likely due to coordinating multiple people and schedules. 
+5. `Solo` travelers book more last-minute trips. This suggests more spontaneous travel or simpler logistics.
 
 ### User Search Usage and Distance
-   - `Couples` lead in overall booking volume, but `Solo` travelers have a strong booking rate compared to their search numbers.
-   - `Groups` are the smallest segment in terms of engagement and bookings.
-   - All travelers prefer hotels closer to their location. This could be due to convenience, familiarity, or travel limitations, showing a natural preference for nearby accommodations.
+
+1. `Couples` lead in overall booking volume, but `Solo` travelers have a strong booking rate compared to their search numbers.
+2. `Groups` are the smallest segment in terms of engagement and bookings.
+3. All travelers prefer hotels closer to their location. This could be due to convenience, familiarity, or travel limitations, showing a natural preference for nearby accommodations.
 
 ## Key Business Insights
 
-   - `Solo` travelers, despite having a smaller user base, had the highest booking conversion rate, indicating they could be a lucrative segment for targeted marketing.
-   - `Desktop` was the preferred platform among all users. Enhancing the desktop user experience could drive more conversions.
-   - Peak booking time were in the `morning` and `afternoon`. Promotional efforts or notifications could be targeted during these periods.
-   - `Couples` accounted for a large portion of booking volume. Tailoring offers or packages for this segment could increase revenue.
-   - `Families` and `Groups` showed longer lead times. Early-bird promotions or trip planning resources could be directed towards these segments.
-   - All travelers preferred hotels near their location. This presents an opportunity for localized marketing or geo-targeted offers.
+1. `Solo` travelers, despite having a smaller user base, had the highest booking conversion rate, indicating they could be a lucrative segment for targeted marketing.
+2. `Desktop` was the preferred platform among all users. Enhancing the desktop user experience could drive more conversions.
+3. Peak booking time were in the `morning` and `afternoon`. Promotional efforts or notifications could be targeted during these periods.
+4. `Couples` accounted for a large portion of booking volume. Tailoring offers or packages for this segment could increase revenue.
+5. `Families` and `Groups` showed longer lead times. Early-bird promotions or trip planning resources could be directed towards these segments.
+6. All travelers preferred hotels near their location. This presents an opportunity for localized marketing or geo-targeted offers.
 
 ## Summary of Recommendations Based on Findings
 
-   - Focus marketing on `Solo` travelers to capitalize on their higher booking rates.
-   - Optimize `Desktop` platform features: Comparison tools, navigation, and security to boost bookings.
-   - Schedule promotional campaigns during peak booking hours, especially in the `Morning` and `Afternoon`.
-   - Create targeted campaigns and special packages for `Couples` to leverage their high booking volume.
-   - Develop early-planning incentives (discounts, reminders) for `Families` and `Groups` to encourage earlier bookings.
-   - Implement localized, geo-targeted marketing strategies to promote hotels and events near users.
+1. Focus marketing on `Solo` travelers to capitalize on their higher booking rates.
+2. Optimize `Desktop` platform features: Comparison tools, navigation, and security to boost bookings.
+3. Schedule promotional campaigns during peak booking hours, especially in the `Morning` and `Afternoon`.
+4. Create targeted campaigns and special packages for `Couples` to leverage their high booking volume.
+5. Develop early-planning incentives (discounts, reminders) for `Families` and `Groups` to encourage earlier bookings.
+6. Implement localized, geo-targeted marketing strategies to promote hotels and events near users.
 
 ## Author
 Jennifer Nguyen
