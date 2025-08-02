@@ -59,7 +59,7 @@ This project uses the [Expedia Travel Dataset](https://www.kaggle.com/datasets/j
    - `srch_co`
 
 2. **Handle Invalid or Missing Date Value:**
-   - `errors='coerce'` converts invalid date strings in `srch_ci` and `srch_co` into NaT (not a time, missing datetime), preventing errors during date operations.
+   - `errors='coerce'` converts invalid date strings in `date_time`, `srch_ci` and `srch_co` into NaT (not a time, missing datetime), preventing errors during date operations.
 
 3. **Calculate Trip Length and Lead Time:**
    - `trip_length` - Number of days between check-out and check-in (`srch_co - srch_ci`).
