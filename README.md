@@ -70,7 +70,6 @@ This project uses the [Expedia Travel Dataset](https://www.kaggle.com/datasets/j
    - Sum of adults (`srch_adults_cnt`) and children (`srch_children_cnt`) to get total group size.
 
 5. **Create Traveler Type Segments:**
-   - Initialized `traveler_type` as `Unknown` for all rows.
    - `Family` if children count > 0.
    - `Solo` if 1 adult and no children.
    - `Couple` if 2 adults and no children.
