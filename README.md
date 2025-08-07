@@ -128,7 +128,7 @@ Data visualization: Identifying traveler segments to support targeted marketing 
 4. `Groups` and `Families` tend to plan their trips further in advance, likely due to coordinating multiple people and schedules. 
 5. `Solo` travelers book more last-minute trips. This suggests more spontaneous travel or simpler logistics.
 
-### User Search Usage and Distance
+### Funnel Metrics and Distance
 
 1. `Couples` lead in overall booking volume, but `Solo` travelers have a strong booking rate compared to their search numbers.
 2. `Groups` are the smallest segment in terms of engagement and bookings.
