@@ -104,6 +104,13 @@ For each traveler type:
 
 ## Results
 
+### Tableau Dashboard and Visual Insights
+
+Data visualization: Identifying traveler segments to support targeted marketing and improve conversion rates.
+
+| [![Traveler Segmentation](Visuals/dashboard-thumbnail-1.png)](Visuals/dashboard-1.png) | [![Trip Planning Behavior](Visuals/dashboard-thumbnail-2.png)](Visuals/dashboard-2.png) | [![Travel Reach & Conversion](Visuals/dashboard-thumbnail-3.png)](Visuals/dashboard-3.png) |
+|-------------------------------|-------------------------------|-------------------------------|
+
 ### Traveler Segmentation
 
 1. `Solo` travelers have the highest booking rate at `12.2%`, which is significantly higher than other groups. 
