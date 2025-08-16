@@ -1,4 +1,5 @@
 # Traveler-Segmentation-Marketing-Insights
+This project analyzes travel data to help platforms personalize marketing and boost engagement, conversions, and loyalty by understanding traveler behavior.
 
 ## Business Problem
 How can a travel platform like Expedia identify distinct types of travelers to deliver personalized marketing campaigns that increase engagement, conversion rates, and customer satisfaction?
